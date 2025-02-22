@@ -27,7 +27,7 @@ services:
       - "5555:5555"
     environment:
       - NODE_ENV=development
-      - MONGO_URI=mongodb://mongo:27017/mydatabase
+      - MONGO_URI=mongodb://mongo:27017/books-collection
     volumes:
       - ./server:/app
       - /app/node_modules
